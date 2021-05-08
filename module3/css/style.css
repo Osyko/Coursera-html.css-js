@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+/*******HEADER*******/
+
+    a:hover{
+       text-decoration: none;
+    }   
+
+    .navbar-brand{
+      font-size: 1.8em;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(24, 16, 44);
+      text-transform: uppercase;
+    }
+  
+   #main-content.container > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(67, 44, 97);
+    }
+
+   .navbar-nav{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(24, 16, 44);
+    }
+
+/*******END HEADER*******/
+
+/*******MAIN CONTENT*******/
+ 
+  .container .row #items {
+    width: 100%;
+    position: relative;
+    border: 2px rgb(24, 16, 44);
+  }
+
+ #name{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(67, 44, 97);
+ }
+
+  .col-md-4, .col-sm-6, .col-xs-12, .col-sm-12{
+      padding: auto;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: rgb(229, 221, 240);
+      padding: 5px;
+      margin-bottom: 15px;
+  }
+/* Separate pages */
+  #content{
+      padding-left: 5px;
+      padding: auto;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: rgb(229, 221, 240);
+      padding: 5px;
+      margin-bottom: 15px;
+  }
+ /*End separate pages  */
+
+/*******END MAIN CONTENT*******/
+
+ /********** Large devices only **********/
+  @media (min-width: 992px) {
+    
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+
+  /********** Small devices only **********/
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 575px) {
+    
+}
